@@ -11,7 +11,7 @@ import PageObjetSaucedemo.YourCart;
 public class TestBase extends BaseTest {
 	
 	@Test
-	public void LoginError() {
+	public void LoginError() throws InterruptedException {
 
 		LoginPage lp = new LoginPage(driver);
 		lp.login("standard_user", "secret_sauce");
@@ -20,8 +20,8 @@ public class TestBase extends BaseTest {
 		psp.choosProduct("Backpack");
 
 		ProductPage pp = new ProductPage(driver);
-//	        Thread.sleep(4000);
-//	        pp.addToCart();
+	        Thread.sleep(4000);
+	        pp.addToCart();
 		pp.back();
 
 		psp = new ProductsPage(driver);

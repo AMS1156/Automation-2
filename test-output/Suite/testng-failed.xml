@@ -9,12 +9,6 @@
           <include name="test"/>
         </methods>
       </class> <!-- TestsSau.TestBase -->
-      <class name="TestsSau.LoginTest">
-        <methods>
-          <include name="l1_loginFailed" invocation-numbers="0 1 2 3"/>
-          <include name="test"/>
-        </methods>
-      </class> <!-- TestsSau.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class ProductPage extends BasePage {
 	
-	@FindBy(css = "#add-to-cart-sauce-labs-backpack")
+	@FindBy(css = ".btn.btn_primary.btn_small")
 	WebElement clickAddToCart;
 	@FindBy(css = ".left_componSSent")
 	WebElement clickBack;
