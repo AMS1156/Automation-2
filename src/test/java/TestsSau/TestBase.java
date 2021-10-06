@@ -20,7 +20,7 @@ public class TestBase extends BaseTest {
 		psp.choosProduct("Backpack");
 
 		ProductPage pp = new ProductPage(driver);
-	        Thread.sleep(4000);
+//	        Thread.sleep(4000);
 	        pp.addToCart();
 		pp.back();
 
